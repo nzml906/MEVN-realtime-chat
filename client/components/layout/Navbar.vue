@@ -22,7 +22,7 @@
       </ul>
       <ul class="navbar__nav navbar__nav--right" v-if="!isAuthorized">
         <li class="nav__item">
-          <a href="https://github.com/luvuong-le/astro-chat" target="_blank" class="nav__link">
+          <a href="https://github.com/nzml906/MEVN-realtime-chat" target="_blank" class="nav__link">
             <ion-icon name="logo-github" class="navbar__icon"></ion-icon>
           </a>
         </li>
@@ -53,7 +53,7 @@
           <router-link to="/register" class="nav__link nav__link--rounded">Register</router-link>
         </li>
         <li class="snav__item">
-          <a href="https://github.com/luvuong-le/astro-chat" target="_blank" class="nav__link">
+          <a href="https://github.com/nzml906/MEVN-realtime-chat" target="_blank" class="nav__link">
             <ion-icon name="logo-github" class="navbar__icon"></ion-icon>
           </a>
         </li>
@@ -65,13 +65,10 @@
             v-if="Object.keys(user).length > 0"
             :to="{ name: 'UserProfile', params: { handle: user.handle } }"
             class="nav__link nav__link--rounded"
-            >{{ user.handle }}</router-link
-          >
+          >{{ user.handle }}</router-link>
         </li>
         <li @click="this.closeSideNav" class="snav__item">
-          <button @click.prevent="logout" class="nav__link nav__link--btn nav__link--rounded">
-            Logout
-          </button>
+          <button @click.prevent="logout" class="nav__link nav__link--btn nav__link--rounded">Logout</button>
         </li>
       </ul>
     </nav>
