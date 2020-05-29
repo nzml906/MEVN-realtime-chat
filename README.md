@@ -6,8 +6,6 @@ Real Time Chat Application created with VueJS, Express, Socket IO and MongoDB/Mo
 
 View the application at [https://fierce-dawn-90847.herokuapp.com/](https://fierce-dawn-90847.herokuapp.com/)
 
-View the project management cycle here [Astro Chat Project Kanban (Trello)](https://trello.com/b/V04pQQV3/astro-chat)
-
 ### Tech Stack
 
 | Technology | Description                                                                           | Link ↘️                 |
