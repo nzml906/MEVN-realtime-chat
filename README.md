@@ -1,4 +1,4 @@
-#  MEVN Chat 
+# MEVN Chat
 
 Real Time Chat Application created with VueJS, Express, Socket IO and MongoDB/Mongoose/Mongo Altas.
 
@@ -24,22 +24,13 @@ View the application at [https://fierce-dawn-90847.herokuapp.com/](https://fierc
 
 ### Running Locally
 
-_Ensure [Node.js](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) are installed_
-
 1. Clone or Download the repository (Depending on whether you are using SSH or HTTPS)
-
-```bash
-$ git clone git@github.com:luvuong-le/astro-chat.git
-$ cd astro-chat
-```
 
 2. Install dependencies for root, client and server
 
 > You will need to npm install in each directory in order to install the node module needed for each part of the project
 
 > Directories Include: Root, Server & Client
-
-
 
 3. Add .env file to server folder and fill out details according to the .env.example. See [configuration details](#configuration-setup) for social auth and database setup: **Note, this is mandatory for the application to run**
 
@@ -61,17 +52,11 @@ This runs the application with the built production ready Vue files as well as r
 
 1. Clone or Download the repository (Depending on whether you are using SSH or HTTPS)
 
-```bash
-$ git clone git@github.com:luvuong-le/astro-chat.git
-$ cd astro-chat
-```
-
 2. Install dependencies for root, client and server
 
 > You will need to npm install in each directory in order to install the node module needed for each part of the project
 
 > Directories Include: Root, Server & Client
-
 
 3. Add .env file to server folder and fill out details according to the .env.example. See [configuration details](#configuration-setup) for social auth and database setup. **Note, this is mandatory for the application to run**
 
@@ -92,17 +77,20 @@ Eg. [localhost:5000](localhost:5000).
 Tests should be run before every commit to ensure the build is not broken by any code changes.
 
 Running Both Client and Server Tests
+
 ```javascript
 In the root directory
 $ npm run test
 ```
 
 Running Client Tests
+
 ```javascript
 $ npm run client:test
 ```
 
 Watching Server Tests
+
 ```javascript
 $ npm run server:test:watch
 ```
@@ -112,6 +100,7 @@ $ npm run server:test:watch
 These configuration setups are necessary for the app to function correctly as intended. These configuration setups will be required to be added as environment variables for the server to make use of.
 
 ### Local Environment Variables (.env file)
+
 For development you will need a .env file for environmental variables.
 
 **_Note: These are required for the application to be setup correctly_**
