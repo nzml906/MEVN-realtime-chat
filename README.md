@@ -1,24 +1,10 @@
-#  Astro Chat 
+#  MEVN Chat 
 
 Real Time Chat Application created with VueJS, Express, Socket IO and MongoDB/Mongoose/Mongo Altas.
 
-![Astro Chat Demo](/client/assets/img/astro-chat.gif)
-
-
-## Contents
-
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Installation](#installation)
-- [Seeding Data](#seeding-data)
-- [Running Tests](#running-tests)
-- [Configuration Setup](#configuration-setup)
-- [Contribute](#contribute)
-
 ## Demo
 
-View the application at [https://astro-chat-io.herokuapp.com/](https://astro-chat-io.herokuapp.com/)
+View the application at [https://astro-chat-io.herokuapp.com/](https://fierce-dawn-90847.herokuapp.com/)
 
 View the project management cycle here [Astro Chat Project Kanban (Trello)](https://trello.com/b/V04pQQV3/astro-chat)
 
